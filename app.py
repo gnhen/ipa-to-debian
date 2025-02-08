@@ -41,7 +41,6 @@ def create_debian_package(ipa_file):
             print("Invalid platform. Please enter 'ios' or 'tvos'")
 
     maintainer = input("Maintainer: ")
-    depends = "libimobiledevice (>= 1.2.0)"
     description = input("Description: ")
     section = "utils"
 
@@ -80,7 +79,6 @@ def create_debian_package(ipa_file):
 Version: {version}
 Architecture: {architecture}
 Maintainer: {maintainer}
-Depends: {depends}
 Description: {description}
 Section: {section}
 """
