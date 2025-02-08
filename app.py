@@ -67,8 +67,8 @@ def create_debian_package(ipa_file):
         app_name_without_ext = os.path.splitext(app_folder)[0]
         source_app_path = os.path.join(payload_dir, app_folder)
 
-        # Copy the entire .app folder to the Application directory
-        destination_app_path = os.path.join(app_dir, app_folder)
+        # Append .app to the app folder name
+        destination_app_path = os.path.join(app_dir, app_name_without_ext + ".app")
         shutil.copytree(source_app_path, destination_app_path)
 
     # Clean up temporary directory
