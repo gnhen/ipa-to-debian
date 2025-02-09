@@ -1,4 +1,7 @@
 # ⚠️ Under Construction ⚠️
+.jar works on linux, python works everywhere.
+
+Yet to be unpacked onto apple tv for testing
 
 # ipa-to-debian
 Simple Python &amp; Java converter for taking .ipa files and making tvOS &amp; iOS compatible .deb files.
