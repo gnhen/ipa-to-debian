@@ -1,5 +1,4 @@
-# ⚠️ Under Construction ⚠️
-.jar works on linux, python works everywhere.
+# .jar works on linux, python works on mac & java.
 
 Yet to be unpacked onto apple tv for testing
 
