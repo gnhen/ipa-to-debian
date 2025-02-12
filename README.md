@@ -1,4 +1,4 @@
-# .jar works on linux, python works on mac & java.
+# .jar works on linux, python works on mac & linux.
 
 Yet to be unpacked onto apple tv for testing
 
